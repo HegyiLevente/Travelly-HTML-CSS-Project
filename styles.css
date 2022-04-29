@@ -73,12 +73,12 @@ button {
   padding: 2.5rem 12rem;
   border: none;
   cursor: pointer;
-  background-color: rgb(77, 118, 200);
+  background-color: rgb(52, 97, 188);
   transition: background 0.4s ease-in-out;
 }
 
 button:hover {
-  background: rgb(53, 81, 137);
+  background: rgb(30, 57, 113);
 }
 
 
@@ -112,10 +112,13 @@ nav ul {
   font-weight: 400;
 }
 
+
+/* Hero Section */
+
 #hero {
   min-height: 92vh;
   color: white;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), transparent), url(./img/landing-page.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), transparent), url(./img/landing-page.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
